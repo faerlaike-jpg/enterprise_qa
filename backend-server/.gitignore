@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+.idea/
+uploads/
+chroma_data/

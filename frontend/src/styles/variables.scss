@@ -1,0 +1,62 @@
+// =============================================================
+// 设计令牌（Design Tokens）：科技蓝 + 高级灰配色体系
+// 以 CSS 变量形式暴露，组件中统一使用 var(--xxx)
+// =============================================================
+:root {
+  // ---------- 品牌色 ----------
+  --primary: #3b6cf6;
+  --primary-hover: #2f5be0;
+  --primary-light: #eef3ff;
+  --primary-lighter: #f5f8ff;
+  --primary-gradient: linear-gradient(135deg, #3b6cf6 0%, #6a8dff 100%);
+  --accent-cyan: #14b8d4;
+  --accent-violet: #7c5cff;
+  --success: #16a34a;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+
+  // ---------- 高级灰 ----------
+  --bg-page: #f5f7fa;
+  --bg-surface: #ffffff;
+  --bg-muted: #f2f4f8;
+  --border: #e8ecf2;
+  --border-strong: #dde2ea;
+  --text-1: #1d2433;
+  --text-2: #4b5565;
+  --text-3: #8a94a6;
+  --text-4: #b5bdca;
+
+  // ---------- 圆角 ----------
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+
+  // ---------- 阴影（多层柔和阴影） ----------
+  --shadow-xs: 0 1px 2px rgba(16, 24, 40, 0.04);
+  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.04), 0 2px 8px rgba(16, 24, 40, 0.04);
+  --shadow-md: 0 2px 4px rgba(16, 24, 40, 0.04), 0 8px 24px rgba(16, 24, 40, 0.06);
+  --shadow-lg: 0 4px 8px rgba(16, 24, 40, 0.04), 0 16px 40px rgba(16, 24, 40, 0.1);
+  --shadow-primary: 0 6px 20px rgba(59, 108, 246, 0.28);
+
+  // ---------- 布局 ----------
+  --sidebar-width: 232px;
+  --header-height: 64px;
+
+  // ---------- 覆盖 Element Plus 主题变量 ----------
+  --el-color-primary: #3b6cf6;
+  --el-color-primary-light-3: #7698f9;
+  --el-color-primary-light-5: #9db6fb;
+  --el-color-primary-light-7: #c4d3fc;
+  --el-color-primary-light-8: #d8e2fd;
+  --el-color-primary-light-9: #eef3ff;
+  --el-color-primary-dark-2: #2f56c5;
+  --el-border-radius-base: 8px;
+  --el-border-color: #e3e7ee;
+  --el-border-color-light: #e8ecf2;
+  --el-border-color-lighter: #eef1f5;
+  --el-text-color-primary: #1d2433;
+  --el-text-color-regular: #4b5565;
+  --el-fill-color-light: #f5f7fa;
+  --el-font-family: 'Inter', 'PingFang SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, sans-serif;
+}
